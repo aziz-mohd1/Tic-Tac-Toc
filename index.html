@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe | Game</title>
+    <link rel="stylesheet" href="main.css">
+    <!-- Poppin font in CSS -->
+</head>
+<body class="text-center bg-[#000000] font-[pf] text-white">
+    <div class="myContainer box-border w-full h-full flex flex-col justify-center items-center ">
+
+        <h1 class="text-[1.5rem] md:text-[3rem] font-[700] shadow-[0px_0px_50px_-25px_white]">Tic Tac Toe -- Let's Play!!</h1>
+
+        <button class="newGameBtn m-5 border px-5 md:px-7 py-4 md:py-4 text-[1rem] md:text-[1.5rem] font-[500] rounded-lg border-black bg-[rgba(225,225,225,0.35)] shadow-[0px_0px_50px_-25px_white]">New Game</button>
+
+        <p class="game-info mt-7 mb-4 border px-5 md:px-7 py-4 md:py-4 text-[1rem] md:text-[1.5rem] font-[500] rounded-lg border-black bg-[rgba(225,225,225,0.35)]  shadow-[0px_0px_50px_-25px_white]">It's the turn of 'X'</p>
+
+        <div class="game m-5 text-[2rem] md:text-[2.5rem] grid grid-cols-3 w-[100%] max-w-[18rem] aspect-square p-7 border rounded-2xl bg-[rgba(225,225,225,0.25)] shadow-[0px_0px_50px_-28px_white]">
+            <div class="box border-r-2 border-b-2 grid place-items-center cursor-pointer w-[100%] max-w-[5rem] aspect-square "></div>
+            <div class="box border-r-2 border-b-2  cursor-pointer grid place-items-center w-[100%] max-w-[5rem] aspect-square"></div>
+            <div class="box border-b-2 cursor-pointer grid place-items-center w-[100%] max-w-[5rem] aspect-square"></div>
+            <div class="box border-r-2 border-b-2  cursor-pointer grid place-items-center w-[100%] max-w-[5rem] aspect-square"></div>
+            <div class="box border-r-2 border-b-2 cursor-pointer grid place-items-center w-[100%] max-w-[5rem] aspect-square"></div>
+            <div class="box border-b-2 cursor-pointer grid place-items-center w-[100%] max-w-[5rem] aspect-square"></div>
+            <div class="box border-r-2  cursor-pointer grid place-items-center w-[100%] max-w-[5rem] aspect-square"></div>
+            <div class="box border-r-2  cursor-pointer grid place-items-center w-[100%] max-w-[5rem] aspect-square"></div>
+            <div class="box cursor-pointer grid place-items-center w-[100%] max-w-[5rem] aspect-square"></div> 
+        </div>
+
+        <button class="resetBtn m-10 border px-5 md:px-7 py-4 md:py-4 text-[1rem] md:text-[1.5rem] font-[500] rounded-lg border-black bg-[rgba(225,225,225,0.35)] shadow-[0px_0px_50px_-25px_white]">Reset Game</button>
+
+    </div>
+
+    <!-- <div class="w-[10rem] h-[10rem] absolute top-[5rem] left-[10rem] rounded-[50%] shadow-[inset_0px_0px_15px_white] animate-bounce"></div>
+    <div class="w-[8rem] h-[8rem] absolute top-[10rem] left-[10rem] rounded-[50%] shadow-[inset_0px_0px_15px_white] animate-bounce"></div>
+    <div class="w-[6rem] h-[6rem] absolute top-[15rem] left-[10rem] rounded-[50%] shadow-[inset_0px_0px_15px_white] animate-bounce"></div>
+    <div class="w-[4rem] h-[4rem] absolute top-[20rem] left-[10rem] rounded-[50%] shadow-[inset_0px_0px_15px_white] animate-bounce"></div>
+    <div class="w-[2rem] h-[2rem] absolute top-[23.5rem] left-[10.3rem] rounded-[50%] shadow-[inset_0px_0px_15px_white] animate-bounce "></div> -->
+
+    <div class="star-field">
+    <div class="layer"></div>
+    <div class="layer"></div>
+    <div class="layer"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
